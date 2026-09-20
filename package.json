@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsc -b && node ./dist/index.js",
-"start":"npm run dev"
+    "start": "npm run dev"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,8 @@
     "@types/ws": "^8.5.14",
     "typescript": "^5.7.3",
     "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2"
   }
 }
